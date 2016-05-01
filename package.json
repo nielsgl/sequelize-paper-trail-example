@@ -10,5 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "hapi": "^13.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6"
   }
 }
