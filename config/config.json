@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "./db/papertrail.development.sqlite",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "./db/papertrail.test.sqlite",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "./db/papertrail.production.sqlite",
+    "dialect": "sqlite"
+  }
+}
