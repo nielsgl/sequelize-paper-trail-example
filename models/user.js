@@ -9,9 +9,14 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
+        User.hasMany(models.Post);
       }
     },
     underscored: true
   });
+
+  // enable paper trail for this model
+  User.hasPaperTrail();
+
   return User;
 };

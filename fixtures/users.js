@@ -16,12 +16,10 @@ module.exports = [
             age: 41
         }
     }, {
-        model: "User",
+        model: "Post",
         data: {
-            email: 'carol@williams.com',
-            first_name: 'Carol',
-            last_name: 'Williams',
-            age: 59
+            body: "This is an awesome Post",
+            user_id: 1
         }
     }
  ];

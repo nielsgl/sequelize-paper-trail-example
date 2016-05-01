@@ -2,6 +2,17 @@
 
 > A demo implementation of Sequelize Paper Trail module.
 
+[![node-version](https://img.shields.io/node/v/sequelize-paper-trail.svg)]()
+[![npm-version](https://img.shields.io/npm/v/sequelize-paper-trail.svg)]()
+[![David](https://img.shields.io/david/nielsgl/sequelize-paper-trail-example.svg?maxAge=3600)]()
+[![David](https://img.shields.io/david/dev/nielsgl/sequelize-paper-trail-example.svg?maxAge=3600)]()
+
+[![GitHub release](https://img.shields.io/github/release/nielsgl/sequelize-paper-trail-example.svg)](https://www.npmjs.org/package/sequelize-paper-trail-example)
+[![GitHub tag](https://img.shields.io/github/tag/nielsgl/sequelize-paper-trail-example.svg)](https://www.npmjs.org/package/sequelize-paper-trail-example)
+[![GitHub commits](https://img.shields.io/github/commits-since/nielsgl/sequelize-paper-trail-example/0.0.1.svg)]()
+
+[![license](https://img.shields.io/github/license/nielsgl/sequelize-paper-trail-example.svg)](https://github.com/nielsgl/sequelize-paper-trail-example/blob/master/LICENSE)
+
 ## Installation
 
 ```bash
