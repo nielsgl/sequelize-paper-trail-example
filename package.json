@@ -1,6 +1,6 @@
 {
   "name": "sequelize-paper-trail-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Example usage of Sequelize Paper Trail plugin",
   "main": "app.js",
   "scripts": {
