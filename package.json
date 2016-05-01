@@ -1,13 +1,30 @@
 {
   "name": "sequelize-paper-trail-example",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Example usage of Sequelize Paper Trail plugin",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Niels van Galen Last",
+  "author": {
+    "name": "Niels van Galen Last",
+    "email": "nvangalenlast@gmail.com",
+    "url": "https://nielsgl.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nielsgl/sequelize-paper-trail-example/issues",
+    "email": "nvangalenlast@gmail.com"
+  },
+  "engines": {
+    "node": ">=5.0.0 <6",
+    "npm": ">=3.3 <4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nielsgl/sequelize-paper-trail-example.git"
+  },
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "hapi": "^13.3.0",
     "sequelize": "^3.22.0",
