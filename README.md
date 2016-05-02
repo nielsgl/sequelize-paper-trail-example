@@ -22,10 +22,51 @@ npm install
 ```
 
 ## Starting the app
-
+Run
 ```bash
 gulp
 ```
+from the command line and the app will start at `http://localhost:8000`
+## Documentation
+
+### Endpoints
+
+```
+GET http://localhost:8000/
+```
+Prints a pretty `Hello, World!` message.
+
+```
+GET http://localhost:8000/users
+```
+Shows a list of users from the seed data.
+
+```
+GET http://localhost:8000/users/increment_age?user_id=[user_id]&first_name=[first name]
+```
+Enables you to simply increment the age of a user with id `[user_id]` and sets the first name of the user to `[first_name]`, this will trigger updates to the revision trail for that user.
+
+```
+GET http://localhost:8000/users/revisions?user_id=[user_id]
+```
+
+Shows the revision history and changes to each attribute for the user with id = `[user_id]`
+
+```
+GET http://localhost:8000/revisions
+```
+Shows the full paper trail.
+
+```
+GET http://localhost:8000/revisions/users
+```
+Shows the full paper trail for all instances of the User model.
+
+```
+GET http://localhost:8000/revisions/users/first_name
+```
+Shows the full paper trail of all instances of the User model where the `first_name` attribute has changed.
+
 
 ## Author
 

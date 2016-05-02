@@ -18,7 +18,7 @@ if (config.use_env_variable) {
 var opts = {
   underscored: true,
   underscoredAttributes: true,
-  enableCompression: true,
+  enableCompression: false,
   enableMigration: true
 };
 
